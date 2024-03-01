@@ -1,0 +1,25 @@
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    height: 30%;
+
+}
+@media screen and (max-width: 936px){
+    .container5 {
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+    }
+
+.cont5-img {
+    position: relative;
+}
+.cont5-img> img{
+    position: relative;
+    z-index: 10;
+    width: 400px;
+}

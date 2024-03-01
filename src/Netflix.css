@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+/* *******CONTAINER_1*******/
+.container1 {
+    position: relative;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100%);
+}
+@media screen and (max-width: 936px){
+    .container1 {
+        flex-wrap: wrap;
+        
+    }
+    }
+
+.container1>.box1 {
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+}
+.line_end {
+    height: 8px;
+
+    background-color: rgb(100, 100, 100);
+    
+}
+/* *******CONTAINER_2*******/
+
+/* .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    max-width: 70vw;
+    margin: auto;
+    background-color: black;
+    color: white;
+    gap: 5px;
+    
+}
+.container2> video {
+    position: absolute;
+    width: 405px;
+    
+}
+
+.img_1>img {
+    position: relative;
+    width: 555px;
+    z-index: 10;
+} */
+/* *******CONTAINER_3*******/
+
+/* .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vw;
+    max-width: 70vw;
+    margin: auto;
+    background-color: black;
+    color: white;
+    
+} */
+/* .img_2 {
+    position: relative;
+    width: 30vw;
+} */
+/* *******CONTAINER_4*******/
+
+/* .container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 30vw;
+    max-width: 70vw;
+    margin: auto;
+    background-color: black;
+    color: white;
+    
+}
+.img_3 {
+    margin-top: 90px;
+    position: relative;
+    width: 33vw;
+    z-index: 10;
+
+}
+.container4> video {
+    position: absolute;
+    width: 21vw;
+    margin-top: -60px;
+    margin-left: 710px;
+}
+ */
+/* *******CONTAINER_5*******/
+
+/* .container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 30vw;
+    max-width: 70vw;
+    margin: auto;
+    background-color: black;
+    color: white;
+    
+}
+.img_4 {
+    position: relative;
+    width: 30vw;
+} */

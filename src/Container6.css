@@ -1,0 +1,23 @@
+
+
+.container6 {
+    padding: 34px;
+    
+
+}
+.container6> h1, p{
+    text-align: center;
+}
+.container6> p{
+    margin: 30px 0px;
+}
+
+.cont-que6 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    color: white;
+    background-color: gray;
+    max-width: 70vw;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+.nav {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    padding: 20px 0px 0px;
+    margin: auto;
+    color: red;
+}
+@media screen and (max-width: 936px){
+    .nav {
+        flex-wrap: wrap;
+        
+    }
+    }
+
+.nav>img {
+    height: 40px;
+    position: relative;
+    z-index: 5;
+}
+.btn1 {
+    position: relative;
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(218, 2, 2);
+    color: white;
+    border: none;
+    
+    
+}
+.btn> select {
+    position: relative;
+    height: 32px;
+    width: 120px;
+    font-size: 17px;
+    border-radius: 5px;
+    background: linear-gradient(to top,rgb(0, 0, 0,0.6),rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2));
+    color: white;
+    margin-right: 10px;
+    border: 1px solid rgb(66, 65, 65);
+}
+.btn>option{
+    /* height: 78px; */
+    /* width: 163px; */
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+
+}

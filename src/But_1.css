@@ -1,0 +1,115 @@
+.i_b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 3px 8px;
+    
+}
+@media screen and (max-width: 936px){
+    .i_b{
+        flex-wrap: wrap;  
+        margin-top: -20px;
+    }
+    }
+
+.inp_button, .inp_but{
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.inp_button::placeholder{
+    color: white;
+}
+.inp_button{
+    height: 45px;
+    width: 280px;
+    margin-right: 5px;
+    font-size: 20px;
+    background: linear-gradient(to top,rgb(0, 0, 0,0.6),rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2));
+    border: 1px solid rgb(199, 199, 199);
+
+
+}
+.inp_but{
+    height: 50px;
+    width: 150px;
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: red;
+
+}
+/* *************************/
+.i_b_1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+@media screen and (max-width: 936px){
+    .i_b_1 {
+        flex-wrap: wrap;  
+    }
+    .inp_but_1{
+        flex-wrap: wrap;  
+
+    }
+    }
+    
+.inp_button_1, .inp_but_1{
+    color: white;
+    margin: 26px 16px;
+    /* margin-top: -45px; */
+    border-radius: 5px;
+    border: none;
+}
+.inp_button_1::placeholder{
+    color: white;
+}
+.inp_button_1{
+    height: 45px;
+    width: 280px;
+    margin-right: 5px;
+    font-size: 20px;
+    background: linear-gradient(to top,rgb(0, 0, 0,0.6),rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.2));
+    border: 1px solid rgb(199, 199, 199);
+
+
+}
+.inp_but_1{
+    height: 50px;
+    width: 150px;
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: red;
+
+}
+
+.box_but_1 {
+    position: relative;
+    float: left;
+    border: none;
+    height: auto;
+    width: auto;
+    background-color: none;
+    border-radius: 3px;
+}
+
+select {
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+
+
+}
+
+option {
+    background-color: black;
+    border: none;
+
+}

@@ -1,0 +1,32 @@
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    height: 30%;
+    /* flex-wrap: wrap; */
+
+}
+@media screen and (max-width: 936px){
+.container2 {
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+}
+.cont2-img {
+    position: relative;
+}
+.cont2-img> img{
+    position: relative;
+    z-index: 10;
+    width: 400px;
+}
+.cont2-img> video {
+    position: absolute;
+    right: 0;
+    top: 62px;
+    left: 52px;
+    width: 291px;
+}

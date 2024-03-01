@@ -1,0 +1,32 @@
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    height: 30%;
+
+}
+@media screen and (max-width: 936px){
+    .container4 {
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+    }
+
+.cont4-img {
+    position: relative;
+}
+.cont4-img> img{
+    position: relative;
+    z-index: 10;
+    width: 400px;
+}
+.cont4-img> video{
+    position: absolute;
+    margin-left: -324px;
+    height: 138px;
+    margin-top: 25px
+
+}
