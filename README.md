@@ -1,3 +1,11 @@
+# Output
+![Capture](https://github.com/DurgeshSalame/NETFLIX-UI-CLN/assets/143694293/03e28daa-f735-460a-b4dd-67e3442f6a3e)
+![Capture](https://github.com/DurgeshSalame/NETFLIX-UI-CLN/assets/143694293/e1439470-0eee-45b4-9275-90998c8fc763)
+![Capture](https://github.com/DurgeshSalame/NETFLIX-UI-CLN/assets/143694293/ec806d27-4875-4d15-b94a-7868e4fc7ccd)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
